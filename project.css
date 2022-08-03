@@ -50,19 +50,24 @@
 }
 
 .card-desc a{
-    border: solid 2px orange;
-    text-decoration: none;
-    color:white;
-    padding: 15px 25px;
-    background-color: orange;
-    border-radius: 15px;
     
+    text-decoration: none;
+    margin: 0px 8px;
+    color:black;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 15px;
+    background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
 }
 
 .card-desc a:hover{
-    color: black;
+    color: white;
     font-weight: solid;
-    box-shadow: 3px 3px 3px orange;
+    
     background-color: white;
 }
 
@@ -75,8 +80,17 @@
 }
 
 .navbar h1{
-    margin: 60px 80px;
+    margin: 60px 70px;
     position: relative;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    border-radius: 25px;
+    padding: 8px 10px;
+    font-size: 25px;
+    font-weight: 150px;
     
    
 }
@@ -107,6 +121,10 @@
 }
 
 .navbar ul li a:hover{
-    border-color: orange;
+    background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
     
 }
