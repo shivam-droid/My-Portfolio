@@ -85,23 +85,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
     width: 400px;
     /* position: relative;
     left: 60%; */
-    top: -20px;
+    /* top: -30px; */
+    /* bottom:60px; */
     
     
-    float: right;
+    float: left;
     margin: 0px 20px;
     align-items:center;
+    justify-items: center;
     
     
     
 }
 .picback img{
     width: 100%;
-    height: 100%;
+    height: 100%; 
     border-radius: 200px;
     border: solid 2px #cc2366;
     position: relative;
-    right: 100px;
+    /* right: px; */
+    left: 100px;
+    /* top:-20px */
     box-shadow:
        inset 0 -3em 3em #cc2366,
              0 0  0 2px #cc2366,
@@ -120,13 +124,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 
     
 }
-.hello::after{
+/* .hello::after{
     content: url("./images/hello.svg");
     margin: 0px 20px;
     position: relative;
     top: 15px;
     font-weight: solid;
-}
+} */
 
 .first-line{
     position: relative;
@@ -164,4 +168,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
     
 }
 
+.content a{
+    position: relative;
+    left:11%;
+    border-radius: 8px;
+    border: solid 2px rgb(207, 89, 89);
+    top: 15px;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+.content a:hover{
+   
+    
+    
+    background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    
+    
+}
 

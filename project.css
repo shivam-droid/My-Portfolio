@@ -110,7 +110,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 
 .navbar ul li a{
     position:relative;
-    left: 100px;
+    left: 250px;
     text-decoration: none;
     color: white;
     font-weight: bold;
